@@ -26,3 +26,9 @@ df = modelization.make_prediction(df)
 #############################################################################
 if df.loc[df.shape[0]-1, ['alert_low', 'alert_high']].sum()>0:
     send_alerting_email()
+touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:faouzizi/<reponame>.git
+git push -u origin master
