@@ -30,5 +30,5 @@ touch README.md
 git init
 git add README.md
 git commit -m "first commit"
-git remote add origin git@github.com:faouzizi/<reponame>.git
+git remote add origin git@github.com:faouzizi/Alerting-System.git
 git push -u origin master
