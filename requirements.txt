@@ -1,0 +1,3 @@
+pandas
+fbprophet
+mysql-connector-python
