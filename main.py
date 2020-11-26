@@ -16,7 +16,7 @@ df['CA'] = df['CA'].astype('float')
 #############################################################################
 ###########               Processing extreme values
 #############################################################################
-df['CA'] = pev.traiter_valeurs_extremes_continues(df, 'CA')
+df = pev.traiter_valeurs_extremes_continues(df, 'CA')
 
 #############################################################################
 ###########               make model to detect anomalies
